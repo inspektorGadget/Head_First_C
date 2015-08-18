@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90DA4751B69E82900761E96 /* Scratch.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DA4731B69E82900761E96 /* Scratch.c */; };
 		B9A4AE901B69603400A3C101 /* cards.c in Sources */ = {isa = PBXBuildFile; fileRef = B9A4AE8F1B69603400A3C101 /* cards.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B90DA4731B69E82900761E96 /* Scratch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Scratch.c; sourceTree = "<group>"; };
+		B90DA4741B69E82900761E96 /* Scratch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scratch.h; sourceTree = "<group>"; };
 		B92006FC1B695A12005E4BA6 /* Head_First_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Head_First_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A4AE8F1B69603400A3C101 /* cards.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cards.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B9A4AE8F1B69603400A3C101 /* cards.c */,
+				B90DA4731B69E82900761E96 /* Scratch.c */,
+				B90DA4741B69E82900761E96 /* Scratch.h */,
 			);
 			path = Head_First_C;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90DA4751B69E82900761E96 /* Scratch.c in Sources */,
 				B9A4AE901B69603400A3C101 /* cards.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
