@@ -9,24 +9,18 @@
 #include "Scratch.h"
 int main() {
     
-    int val = 0;
+    int x = 0;
+    int y = 0;
     
-    switch (card_name[0]) {
-            
-        case 'K':
-        case 'Q';
-        case 'J';
-            val = 10;
-            break;
-        case 'A';
-            val = 11;
-            break
-            
-        default:
-            val = atoi(card_name);
-            break;
+    while (x < 5) {
+        
+        y = y + 2;
+        if (y > 4) {
+            y = y - 1;
+        }
+        printf("%i%i \n", x, y);
+        x = x + 1;
     }
-    
     return 0;
 
 }
