@@ -10,18 +10,18 @@
 #include <stdlib.h>
 
 int main() {
-    
+
     char card_name[3];
     int count = 0;
     int val = 0;
-    
+
     while (card_name[0] != 'X') {
-        
+
         puts("Enter the card_name: Or enter 'X' to end. ");
         scanf("%2s", card_name);
-        
+
         switch (card_name[0]) {
-                
+
             case 'K':
             case 'Q':
             case 'J':
@@ -40,11 +40,11 @@ int main() {
                     puts("Enter a valid face card or card value");
                     continue;
                 }
-                break;
+
         }/*end switch*/
-        
+
         printf("The card value is %i\n", val);
-        
+
         /* Check if the value is 3 to 6 */
         if ((val > 2) && (val < 7)) {
             puts("Count has gone up");
@@ -54,10 +54,10 @@ int main() {
             puts("Count has gone down");
             count--;
         }
-        
+
         printf("The current count is %i\n", count);
 
     }
-    
+
     return 0;
 }
